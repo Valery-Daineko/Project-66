@@ -1,0 +1,4 @@
+$('.fofo').slick({
+    dots: true
+});
+				

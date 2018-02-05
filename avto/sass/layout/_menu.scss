@@ -1,0 +1,101 @@
+#l-header{
+  background-image: url("img/Untitled-1.png");
+  min-height: 644px;
+  background-repeat:repeat-x;
+  background-position: top center;
+  position: relative;
+  font-family: "BebasRegular";
+  a{
+    color: white;
+  }
+  .top-line{
+    min-height: 97px;
+    border-bottom: 2px solid rgba(131, 129, 109, 0.50);
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.60);
+    font-weight: 600;
+    padding: 22px 0 ;
+    a{
+      font-size: 21px;
+      border-bottom: #FFFFFF dashed 1px;
+    }
+    .top-addr{
+      padding-left: 50px;
+      background-image: url("img/one.png");
+      background-position: top left;
+      background-repeat: no-repeat;
+      line-height: 25px;
+      strong{
+        font-weight: 900;
+        color: #d90f1f;
+        display: block;
+        text-transform: uppercase;
+        font-size: 31px;
+      }
+    }
+    .logo-wrapper{
+      position: relative;
+      margin: auto;
+      width: 240px;
+      .logo{
+        border-bottom: none;
+        position: absolute;
+        margin-top: -20px;
+      }
+    }
+    .top-addr-right{
+      padding-left: 0;
+      line-height: 25px;
+      text-align: right;
+      strong{
+        font-weight: 900;
+        color: white;
+        display: block;
+        text-transform: uppercase;
+        font-size: 33px;
+        .numeral{
+          color: #d90f1f;
+        }
+      }
+    }
+  }
+  h1{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 65px;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 0 3px rgba(0, 0 ,0 ,0.55);
+  }
+  .button-top{
+    width: 100%;
+    position: absolute;
+    bottom: 32px;
+    .button-red{
+      background-color: #d12f25;
+      color: #FFFFFF;
+      line-height: 50px;
+      height: 50px;
+      display: inline-block;
+      font-size: 20px;
+      padding: 0 25px;
+      vertical-align: middle;
+      border-bottom: #AC160A 4px solid;
+      margin-right: 20px;
+      &:hover{
+        background-color: #AC160A;
+        border-bottom: #d12f25 4px solid;
+      }
+    }
+    .st{
+      line-height: 20px;
+      padding-top: 7px;
+      text-align: left;
+      background-image: url("img/two.png");
+      background-repeat: no-repeat;
+      background-position: 5px 8px;
+      padding-left: 55px;
+    }
+  }
+}

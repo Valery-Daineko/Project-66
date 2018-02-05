@@ -1,0 +1,165 @@
+.nav_avto{
+  height: 68px;
+  background-color:#242424;
+  margin-top: -3px;
+  font-family: "BebasRegular";
+  .container{
+    ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li{
+        float: left;
+        &:hover{
+          background-color: black;
+        }
+        img{
+          float: left;
+          margin: 23px 13px;
+        }
+        a{
+          color: #FFFFFF;
+          text-transform: uppercase;
+          font-size: 20px;
+          padding: 0 26px 0 48px;
+          display: block;
+          line-height: 68px;
+          border-left: #83816d 1px solid;
+        }
+      }
+    }
+    .waranty{
+      float: right;
+      color: #FFFFFF;
+      font-size: 15px;
+      cursor: default;
+      padding: 3px 5px;
+      border: #fffcd7 2px solid;
+      margin-top: 12px;
+      .one-year{
+        float: left;
+        font-size: 26px;
+        padding: 0 10px;
+      }
+      .garant{
+        float: left;
+        display: inline-block;
+        line-height: 18px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+.wr{
+  width: 100%;
+  height: auto;
+  background-color: #191919;
+  .zagl{
+    text-align: center;
+    color:#c9c9c9 ;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin-top: 10px;
+    position: relative;
+    .avto{
+      color:#FFFFFF;
+    }
+    .holl{
+      color:#d12f22;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      top: 17px;
+      margin-left: -65px;
+      background-image: url("img/Untitled-13.png");
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      background-image: url("img/Untitled-13.png");
+      background-position: -50px;
+      top: 17px;
+      margin-left: 15px;
+    }
+  }
+  .mc-wr{
+    margin-top: 30px;
+    position: relative;
+    .mc-item{
+      border:#353535 1px solid;
+      border-radius: 2px;
+      text-transform: uppercase;
+      .mc-toggle{
+        position: relative;
+        background-color: #212121;
+        height: 25px;
+        cursor: pointer;
+        background-image: url("img/set.png");
+        background-repeat: no-repeat;
+        background-position: 70px 9px;
+      }
+    }
+    .mc-item-wrap{
+      width: 156px;
+      margin-left: 30px;
+      display: inline-block;
+      text-align: center;
+      a{
+        span{
+          width: 130px;
+          height: 85px;
+          display: block;
+          margin: 10px auto;
+        }
+        h4{
+          color: white;
+          margin-bottom: 10px;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .mc-item-wrap.actives.mc-toggle,
+    .mc-item-wrap:hover .mc-toggle{
+      background-color: #353535;
+      background-position: -120px 9px;
+    }
+    .actives{
+      ul{
+        position: absolute;
+        width: 97%;
+        font-size: 20px;
+        background-color: #353535;
+        margin-top: 30px;
+        padding: 15px 0;
+        z-index: 10;
+        display: none;
+        li{
+          display: inline-block;
+          font-family:"BebasRegular";
+          text-decoration: underline;
+          a{
+            color: #FFFFFF;
+            padding: 0 15px;
+          }
+          &:hover{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+.mc-item-wrap.actives h4{
+  text-decoration: underline;
+}
+.mc-item-wrap:hover,
+.mc-item-wrap.actives{
+  background-color: #2a2a2a;
+}
